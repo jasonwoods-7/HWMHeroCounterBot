@@ -1,0 +1,11 @@
+﻿{
+  "profiles": {
+    "HeroWars.Hero.Counter.Bot": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
