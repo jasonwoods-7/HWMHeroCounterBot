@@ -11,7 +11,7 @@ public static class Program
         {
             var host = Host
                 .CreateDefaultBuilder(args)
-                .ConfigureServices(services =>
+                .ConfigureServices((hostContext, services) =>
                 {
                     Log.Logger = new LoggerConfiguration()
                         .MinimumLevel.Debug()
@@ -21,6 +21,7 @@ public static class Program
 
                     services
                         .AddHostedService<Worker>()
+                        .Configure<BotOptions>(hostContext.Configuration.GetSection(nameof(BotOptions)))
                         .AddTransient<DiscordSocketClient>()
                         ;
                 })

@@ -1,31 +1,32 @@
 using Discord;
 using Discord.Interactions;
 using Discord.WebSocket;
+using Microsoft.Extensions.Options;
 
 namespace HeroWars.Hero.Counter.Bot;
 
 public class Worker : BackgroundService
 {
     readonly IServiceProvider _services;
-    readonly IConfiguration _config;
     readonly DiscordSocketClient _client;
     readonly InteractionService _interactionService;
+    readonly BotOptions _botOptions;
     readonly ILogger<Worker> _logger;
 
     public Worker(
         IServiceProvider services,
-        IConfiguration config,
         DiscordSocketClient client,
+        IOptions<BotOptions> botOptions,
         ILogger<Worker> logger)
     {
         _services = services;
-        _config = config;
         _client = client;
         _client.Log += ClientOnLogAsync;
         _client.Ready += ClientOnReadyAsync;
         _client.InteractionCreated += ClientOnInteractionCreatedAsync;
         _interactionService = new InteractionService(_client.Rest);
         _interactionService.Log += ClientOnLogAsync;
+        _botOptions = botOptions.Value;
         _logger = logger;
     }
 
@@ -53,7 +54,7 @@ public class Worker : BackgroundService
             .ConfigureAwait(false);
 
 #if DEBUG
-        var guildId = _config.GetValue<ulong>("Discord:TestGuildId");
+        var guildId = _botOptions.GuildId;
 
         await _interactionService
             .RegisterCommandsToGuildAsync(guildId)
@@ -70,7 +71,7 @@ public class Worker : BackgroundService
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        var token = _config.GetValue<string>("Discord:Token");
+        var token = _botOptions.Token;
 
         await _client
             .LoginAsync(TokenType.Bot, token)
