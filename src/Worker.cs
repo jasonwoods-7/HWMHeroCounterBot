@@ -84,11 +84,11 @@ public class Worker : BackgroundService
 
     public override async Task StopAsync(CancellationToken cancellationToken)
     {
-        _interactionService.Dispose();
-
         await base
             .StopAsync(cancellationToken)
             .ConfigureAwait(false);
+
+        _interactionService.Dispose();
 
         await _client
             .LogoutAsync()
@@ -96,6 +96,10 @@ public class Worker : BackgroundService
 
         await _client
             .StopAsync()
+            .ConfigureAwait(false);
+
+        await _client
+            .DisposeAsync()
             .ConfigureAwait(false);
     }
 }

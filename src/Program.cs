@@ -1,4 +1,5 @@
 using Discord.WebSocket;
+using HeroWars.Hero.Counter.Bot.Repositories;
 using Serilog;
 
 namespace HeroWars.Hero.Counter.Bot;
@@ -23,6 +24,7 @@ public static class Program
                         .AddHostedService<Worker>()
                         .Configure<BotOptions>(hostContext.Configuration.GetSection(nameof(BotOptions)))
                         .AddTransient<DiscordSocketClient>()
+                        .AddTransient<IHeroRepository, HeroRepository>()
                         ;
                 })
                 .UseSerilog()

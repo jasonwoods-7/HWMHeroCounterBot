@@ -1,11 +1,12 @@
 using Discord.Interactions;
+using Newtonsoft.Json;
 
 namespace HeroWars.Hero.Counter.Bot.Data;
 
 public enum Hero
 {
     Alvanor,
-    Amira,
+    //Amira,
     Andvari,
     Arachne,
     Artemis,
@@ -40,8 +41,8 @@ public enum Hero
     Karkh,
     Kai,
     Keira,
-    Krista,
-    Lars,
+    //Krista,
+    //Lars,
     Lian,
     Lilith,
     Luther,
@@ -61,8 +62,45 @@ public enum Hero
     Sebastian,
     Thea,
     Tristan,
-    [ChoiceDisplay("Xe'Sha")]
-    XeSha,
+    Twins,
+    //[ChoiceDisplay("Xe'Sha")]
+    //XeSha,
     Yasmine,
     Ziri
+}
+
+public record Document
+(
+    [JsonProperty(PropertyName = "id")] string Id,
+    [JsonProperty(PropertyName = "hero")] HeroRecord Hero,
+    [JsonProperty(PropertyName = "counters")] Counters Counters
+)
+{
+    public Document()
+        : this(string.Empty, new HeroRecord(), new Counters())
+    {
+    }
+}
+
+public record HeroRecord
+(
+    [JsonProperty(PropertyName = "name")] string Name
+)
+{
+    public HeroRecord()
+        : this(string.Empty)
+    {
+    }
+}
+
+public record Counters
+(
+    [JsonProperty(PropertyName = "hard")] IReadOnlyList<string> Hard,
+    [JsonProperty(PropertyName = "soft")] IReadOnlyList<string> Soft
+)
+{
+    public Counters()
+        : this(Array.Empty<string>(), Array.Empty<string>())
+    {
+    }
 }

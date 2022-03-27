@@ -11,7 +11,7 @@ public class HeroAutoComplete : AutocompleteHandler
 
     public HeroAutoComplete()
     {
-        _heroesTrie = new Trie<Data.Hero>();
+        _heroesTrie = new ConcurrentTrie<Data.Hero>();
 
         foreach (var hero in Enum.GetValues<Data.Hero>())
         {
@@ -26,9 +26,10 @@ public class HeroAutoComplete : AutocompleteHandler
         IServiceProvider services)
     {
         var suggestions = _heroesTrie
-            .Retrieve((string)autocompleteInteraction.Data.Options.First().Value)
-            .Take(15)
+            .Retrieve((string?)autocompleteInteraction.Data.Options.FirstOrDefault(o => o.Name == "hero-name")?.Value)
             .Select(h => new AutocompleteResult(h.GetHeroName(), h.ToString()))
+            .OrderBy(r => r.Name)
+            .Take(15)
             .ToList();
 
         return Task.FromResult(AutocompletionResult.FromSuccess(suggestions));
