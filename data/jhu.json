@@ -1,0 +1,16 @@
+{
+    "id": "jhu",
+    "hero": {
+        "name": "Jhu"
+    },
+    "counters": {
+        "hard": [
+            "Martha – Jhu’s power hides in his skills “I See You” which makes Jhu attack the enemy backline. Martha has a great health pool, great survivability from her basic attack healing, and Totem healing on top of that. Most of the time Martha will be able to survive Jhu’s attacks if she activates her active skill right after Jhu actives his. Martha will receive extra healing from Totem and besides that, she will get an armor artifact boost.",
+            "Helios – Jhu is a critical hit hero so Helios is the obvious choice against Jhu.",
+            "Jorgen – Jhu’s power hides in stacking active skills to be immortal for a long period of time and meanwhile kill his opponents. Jorgen will prevent stacking active skills because of energy manipulation."
+        ],
+        "soft": [
+            "Armor artifact – Armor artifact will decrease Jhu’s damage by a lot."
+        ]
+    }
+}

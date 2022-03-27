@@ -1,0 +1,16 @@
+{
+    "id": "orion",
+    "hero": {
+        "name": "Orion"
+    },
+    "counters": {
+        "hard": [
+            "Satori – Each time Orion gains energy Satori will apply Fox marks on him. When Satori has stacked his Fox marks and uses his active skill Orion will be one-shotted",
+            "Lian – Charms Orion once he hits her with his ultimate. Being charmed each time Orion uses his ultimate doesn’t allow him to stack his ultimate damage and finish off enemies."
+        ],
+        "soft": [
+            "Magic defense artifact – Orion does a lot of magic damage, having a hero with a magic defense artifact will definitely help",
+            "Jorgen – Jorgen can deny a lot of energy gain for Orion"
+        ]
+    }
+}

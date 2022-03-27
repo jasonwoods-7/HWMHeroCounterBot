@@ -1,0 +1,17 @@
+{
+    "id": "peppy",
+    "hero": {
+        "name": "Peppy"
+    },
+    "counters": {
+        "hard": [
+            "Dorian – I would expect 95% of all Peppy teams to use Cleaver as a tank. The #1 tip for beating a team like this is to use Dorian as a backline hero. Don’t position anyone behind Dorian. Cleaver will grapple him with his ultimate and pull him forward which will give your front and middle line heroes his vampirism aura. ",
+            "Jhu – For most of the Peppy teams she will be the last hero so Jhu will take her out without any problems with his “I See You” skill.",
+            "Jorgen – For most of the Peppy teams she will be the last hero so Jorgen’s “Leper” skill will redirect all damage for a couple of seconds to Peppy. Time your skills right and you will take Peppy out almost instantly.",
+            "Rufus – Hard to kill tank for Peppy and also provides a huge magic damage shield for the team"
+        ],
+        "soft": [
+            "Magic defense artifact – Peppy relies on magic damage. Use Magic defense artifact to reduce Peppy’s damage output."
+        ]
+    }
+}

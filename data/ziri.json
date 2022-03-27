@@ -1,0 +1,15 @@
+{
+    "id": "ziri",
+    "hero": {
+        "name": "Ziri"
+    },
+    "counters": {
+        "hard": [
+            "Chabba – Wait when Ziri drops below 30% health and burrows herself underground. That is a moment when the enemy is vulnerable because there is no tank that can protect the team. Right after Ziri comes back use Chabba’s “Wild Hunger” skill to eat Ziri for 6 seconds and leave the enemy team unprotected for 13 seconds in total. Besides being unprotected for 13 seconds Chabba will mitigate Ziri’s “Reflection of Pain” skill since she can’t be targeted while swallowed.",
+            "Aoe damage – Ziri is a great tank but she doesn’t offer protection to her team. The best way to counter her is to bypass her and deal damage to the middle and rear parts of the enemy team."
+        ],
+        "soft": [
+            "Armor/magic defense penetration artifact – once his armor or magic defense is lowered she goes down really fast. Combine skills and attacks together to melt her down in a few seconds."
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "id": "nebula",
+    "hero": {
+        "name": "Nebula"
+    },
+    "counters": {
+        "hard": [
+            "Counter heroes who Nebula buffs – the best way how to deal with Nebula is countering heroes who she is supporting.",
+            "High aoe burst damage – Nebula is a squishy hero you can try to take her out with high burst damage with heroes like Karkh, blender Keira, etc"
+        ],
+        "soft": [
+            "Displacement – Nebula hasn’t real counters since she is a support but you can try to mess with the enemy’s team placement to make Nebula give buffs to the wrong allies. For example, Lars dragging skill or Faceless knockback.",
+            "Defense artifacts – depending on what Nebula is supporting you can go for armor or magic defense artifact to deny some of the incoming damage."
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "id": "jet",
+    "hero": {
+        "name": "Jet"
+    },
+    "counters": {
+        "hard": [
+            "Helios - Jet gives his teammates a critical hit chance. Each time an allied hero will critical deal damage Helios will deal damage to that hero.",
+            "Jhu – Jet in most team compositions stands as the last hero. Jhu will take Thea out of the game really fast once he activates his “I See You” skill"
+        ],
+        "soft": [
+            "Armor artifact – Jet provides allies with physical damage boosting abilities, armor artifact will deny overall damage from the hero who Jet is supporting.",
+            "Celeste – Denies healing from Jet’s “Elixir of Vigor” skill"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "id": "ishmael",
+    "hero": {
+        "name": "Ishmael"
+    },
+    "counters": {
+        "hard": [
+            "Helios – Ishmael has a built-in critical strike. Whenever Ishmael crits will deal damage which accumulates fast.",
+            "Celeste – Denies Ishmael’s healing and turns it to damage to himself."
+        ],
+        "soft": [
+            "High armor tanks – Tanks with high armor can be a challenge for Ishmael. Once he kills the enemy’s tank he will destroy the rest of the team. Make sure your tank has a good amount of armor and good healers behind him.",
+            "Armor artifact – Ishmael is all about the physical damage. When armor artifact is up he deals a low amount of damage."
+        ]
+    }
+}

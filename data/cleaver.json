@@ -1,0 +1,15 @@
+{
+    "id": "cleaver",
+    "hero": {
+        "name": "Cleaver"
+    },
+    "counters": {
+        "hard": [
+            "Dorian – once Dorian is hooked to the frontline he will be able to heal up all allies with his vampiric aura.",
+            "Andvari – Andvari will deny Cleaver from hooking allies to the frontline."
+        ],
+        "soft": [
+            "Armor/magic defense penetration artifact – once his armor or magic defense is lowered he goes down really fast. Combine skills and attacks together to melt him down in a few seconds."
+        ]
+    }
+}

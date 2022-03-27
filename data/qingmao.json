@@ -1,0 +1,15 @@
+{
+    "id": "qingmao",
+    "hero": {
+        "name": "Qing Mao"
+    },
+    "counters": {
+        "hard": [
+            "High damage to the frontline – even though Qing Mao is a warrior she lacks defense. Focusing damage on the front lane will make Qing Mao die really fast. AOE damage will work as well.",
+            "Chabba – Chabba can eat for a few seconds enemy’s tank. Once there is no tank in from of Qing Mao she will go down really quickly."
+        ],
+        "soft": [
+            "Armor artifact – Qing Mao has some built-in damage but she is often used to get extra armor penetration for her team. Using armor artifacts to deny this goal for the enemy team is a good way how to win the fight."
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "id": "arachne",
+    "hero": {
+        "name": "Arachne"
+    },
+    "counters": {
+        "hard": [
+            "Stun removal – heroes like Andvari, Sebastian, Nebula can remove stuns making Arachne much less efficient.",
+            "Celeste – Denies a lot of healing for Arachne"
+        ],
+        "soft": [
+            "Magic defense artifact – denies a lot of damage for Arachne but not all of it since Arachne can deal pure damage as well"
+        ]
+    }
+}

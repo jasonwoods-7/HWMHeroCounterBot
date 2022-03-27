@@ -1,0 +1,15 @@
+{
+    "id": "ginger",
+    "hero": {
+        "name": "Ginger"
+    },
+    "counters": {
+        "hard": [
+            "Ginger is an average damage dealer at best. She is a counter to herself because she can’t provide enough damage to take out the enemy team most of the time. Keira, Karkh, and other top-tier damage dealers should beat her easily.",
+            "Lian – Charms Ginger once she hits her. Also, ultimate damage will trigger Lian’s charm effect making her stop ulting."
+        ],
+        "soft": [
+            "Armor artifact – Ginger is an average damage dealer. Her power hides in her active skill “Lead Storm”. Use heroes with armor artifacts and she won’t do too crazy damage with her active skill."
+        ]
+    }
+}

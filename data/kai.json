@@ -1,0 +1,16 @@
+{
+    "id": "kai",
+    "hero": {
+        "name": "Kai"
+    },
+    "counters": {
+        "hard": [
+            "Andvari – Denies knock-up from Kai’s tornado. For the mobile version, more heroes will be protected from knock-ups but on the desktop version, this can come in handy as well.",
+            "Rufus – Hard to kill tank for Kai and also provides a huge magic damage shield for the team",
+            "Celeste – Counters Kai’s vampiric aura. Instead of healing Kai will receive damage because of converted healing."
+        ],
+        "soft": [
+            "Magic defense artifact – kai relies on magic damage. Use Magic defense artifact to reduce Kai’s damage output."
+        ]
+    }
+}

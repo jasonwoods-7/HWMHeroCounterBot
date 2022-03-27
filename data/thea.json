@@ -1,0 +1,17 @@
+{
+    "id": "thea",
+    "hero": {
+        "name": "Thea"
+    },
+    "counters": {
+        "hard": [
+            "Jhu – Thea in most team compositions stands as the last hero. Jhu will take Thea out of the game really fast once he activates his “I See You” skill",
+            "Jorgen – Thea in most team compositions stands as the last hero. Jorgen can redirect all damage to her in these situations and Thea will go down really fast. Also, denying energy to Thea is a big deal since she really relies on her abilities.",
+            "Celeste – denies Martha’s healing abilities and turns that healing into damage",
+            "Cleaver – Cleaver can hook Thea and bring her to the frontline where she will melt in a few seconds."
+        ],
+        "soft": [
+            "Physical damage – Thea’s artifact provides a magic defense boost and she can silence enemies with her skills. Using a physical attacking team against her will cross out Thea’s magic defense boost on silence skill most of the time won’t hurt as much as for magic damage dealing team"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "id": "daredevil",
+    "hero": {
+        "name": "Daredevil"
+    },
+    "counters": {
+        "hard": [
+            "Helios – Daredevil’s “Big Badda Boom!” skill can crit and if it crits Helios will deal a lot of damage to her. Also, Daredevil has a built-in critical chance for the mobile version.",
+            "Corvus – Corvus’ altar can deal a lot of damage to Daredevil because Daredevil has a lot of aoe damage."
+        ],
+        "soft": [
+            "Armor artifact – Daredevil is a physical damage dealer. Use armor artifact to deny damage to her."
+        ]
+    }
+}

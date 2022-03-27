@@ -1,0 +1,14 @@
+{
+    "id": "judge",
+    "hero": {
+        "name": "Judge"
+    },
+    "counters": {
+        "hard": [
+            "Hasn’t real counters. In my opinion average hero. Judge doesn’t do anything better than any other hero. Just an average hero at everything."
+        ],
+        "soft": [
+            "Magic defense artifact – Judge has some synergy with mage teams so having a magic defense artifact will increase your chances to win the fight."
+        ]
+    }
+}

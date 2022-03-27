@@ -1,0 +1,17 @@
+{
+    "id": "karkh",
+    "hero": {
+        "name": "K'arkh"
+    },
+    "counters": {
+        "hard": [
+            "Andvari – doesn’t allow to throw allies into the air denying Karkh’s damage from his “Deadly Tendrils” skill. For the desktop version, Andvari will protect the hero in front of him only. If there isn’t one then he will protect 1 ally behind him. For the mobile version, Andvari will protect all heroes behind him from knock-ups.",
+            "Satori – Satori applies Fox marks to heroes who gain bonus energy. Karkh can gain energy with the “Negator of Laws” skill when he blocks enemy’s team basic attacks. More Fox marks on Karkh easier for Satori to kill Karkh."
+        ],
+        "soft": [
+            "Armor artifact – Karkh is all about physical damage. When armor artifact is up he deals a low amount of damage.",
+            "Jorgen – Denies Karkh from gaining energy and using his active skill to throw enemies into the air and deal damage. Karkh can’t do too much damage unless he or his allies throw enemies into the air.",
+            "Celeste – Denies Karkh’s healing and turns it to damage to himself."
+        ]
+    }
+}

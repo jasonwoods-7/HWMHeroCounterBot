@@ -1,0 +1,15 @@
+{
+    "id": "astaroth",
+    "hero": {
+        "name": "Astaroth"
+    },
+    "counters": {
+        "hard": [
+            "Celeste – denies Astaroth resurrect healing with “White Night” skill. Astaroth will resurrect himself or an ally with 1 health",
+            "Morrigan – denies Astaroth resurrect completely. Resurrected hero will be turned into a skeleton"
+        ],
+        "soft": [
+            "Armor penetration – Astaroth has a lot of armor. Having heroes who have a lot of armor penetration will help to soften Astaroth"
+        ]
+    }
+}

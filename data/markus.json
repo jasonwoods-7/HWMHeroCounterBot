@@ -1,0 +1,14 @@
+{
+    "id": "markus",
+    "hero": {
+        "name": "Markus"
+    },
+    "counters": {
+        "hard": [
+            "Celeste – denies a lot of healing to the enemy team and converts that healing into damage to the enemy."
+        ],
+        "soft": [
+            "Physical damage teams – Markus offers magic defense artifact for the team. Sometimes that can be problematic if timed right, try to avoid mage teams against Markus if possible."
+        ]
+    }
+}

@@ -23,8 +23,13 @@ public static class Program
                     services
                         .AddHostedService<Worker>()
                         .Configure<BotOptions>(hostContext.Configuration.GetSection(nameof(BotOptions)))
+                        .Configure<CosmosOptions>(hostContext.Configuration.GetSection(nameof(CosmosOptions)))
                         .AddTransient<DiscordSocketClient>()
-                        .AddTransient<IHeroRepository, HeroRepository>()
+#if DEBUG
+                        .AddTransient<IHeroRepository, FileHeroRepository>()
+#else
+                        .AddTransient<IHeroRepository, CosmosHeroRepository>()
+#endif
                         ;
                 })
                 .UseSerilog()

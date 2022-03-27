@@ -1,0 +1,16 @@
+{
+    "id": "martha",
+    "hero": {
+        "name": "Martha"
+    },
+    "counters": {
+        "hard": [
+            "Celeste – denies Martha’s healing abilities and turns that healing into damage",
+            "Cleaver – Cleaver can hook Martha and bring her to the frontline. Martha’s healing totem will be destroyed almost instantly once she is at the frontline. Also, Martha’s healing amount from basic attacks depends on the traveled distance of the basic attack.",
+            "Luther – Luther can jump to the enemy’s backline. Once he is there he will destroy Martha’s healing totem almost instantly. Also, Martha’s healing amount from basic attacks depends on the traveled distance of the basic attack. Luther being close to her denies a lot of healing from Martha’s basic attacks."
+        ],
+        "soft": [
+            "AOE damage – an area of effect damage will destroy Martha’s healing totem."
+        ]
+    }
+}

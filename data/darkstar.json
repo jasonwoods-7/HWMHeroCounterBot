@@ -1,0 +1,14 @@
+{
+    "id": "darkstar",
+    "hero": {
+        "name": "Dark Star"
+    },
+    "counters": {
+        "hard": [
+            "High damage – Dark Star is an average damage dealer who is too squishy to survive high damage. Use Keira, Karkh, Orion to take her out of the picture and then finish the rest of the team. Needs a second damage dealer to have enough damage to take out the enemy."
+        ],
+        "soft": [
+            "Armor artifact – Dark Star’s damage isn’t too high in general combine this fact with armor artifact and she will do almost no damage to your team"
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "id": "celeste",
+    "hero": {
+        "name": "Celeste"
+    },
+    "counters": {
+        "hard": [
+            "Cornelius – directly damages intelligence heroes with an insane amount of damage and can basically one-shot Celeste",
+            "Celeste – Celeste can counter Celeste or at least make a battle more even by countering healing to the enemy team from Celeste or any other healer.",
+            "Karkh – Karkh can one-shot Celeste with his",
+            "Rufus – Hard to kill tank for Celeste and also provides a huge magic damage shield for the team. Works only against mage teams!"
+        ],
+        "soft": [
+            "Magic defense artifact – even though Celeste is known for her healing abilities and healing denying to the enemy team she can do some serious single target damage to the enemy team. Also, she offers a lot of magic attacks with her artifact. Magic defense artifact can come in handy sometimes.",
+            "Don’t rely on healing – Use teams who can kill enemies fast like Keira’s blender team. This team doesn’t need healing and that means Celeste’s healing reduction won’t play a too big role in the battle."
+        ]
+    }
+}

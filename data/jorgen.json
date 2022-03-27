@@ -1,0 +1,15 @@
+{
+    "id": "jorgen",
+    "hero": {
+        "name": "Jorgen"
+    },
+    "counters": {
+        "hard": [
+            "Satori – Satori applies Fox marks (read damage) each time the enemy gains bonus energy. Jorgen’s shield provides allies with extra energy and each time Jorgen does a basic attack he steals energy from the enemy.",
+            "Martha – Jorgen’s “Leper” skills allow Jorgen and his teammates to attack the furthest enemy for a small period of time. Martha is strong enough to survive all incoming damage and this means she will allow her frontline to regenerate health while she is receiving damage."
+        ],
+        "soft": [
+            "Heroes who don’t need the energy to be effective. For example, Keira doesn’t need energy too much to be effective."
+        ]
+    }
+}

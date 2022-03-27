@@ -1,0 +1,21 @@
+{
+    "id": "twins",
+    "hero": {
+        "name": "Twins - Krista and Lars"
+    },
+    "counters": {
+        "hard": [
+            "Cornelius – offers magic defense for allies, can deny magic attack to Lars, and has the potential to one-shot Lars",
+            "Andvari – Doesn’t allow Lars to drag heroes over the battlefield and by doing so denies a lot of damage to Twins"
+        ],
+        "soft": [
+            "Magic defense artifact – Orion does a lot of magic damage, having a hero with a magic defense artifact will definitely help",
+            "Dorian – Lars will drag all heroes around Dorian allowing them to stand in the range of Dorian’s Vampiric Aura.",
+            "Cleaver – When Lars is the furthest enemy Cleaver will grab him and hook him to the front lane where he will die",
+            "Jhu – When Lars is the furthest enemy Jhu will kill him really fast once he activates “I See You” skill",
+            "Jorgen – Denies a lot of energy gain for the Twins allowing your team to take Twins down faster",
+            "Satori – Works well against Twins, depends on what team each player is running",
+            "Rufus – Hard to kill tank for Twins and also provides a huge magic damage shield for the team"
+        ]
+    }
+}

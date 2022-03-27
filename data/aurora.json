@@ -1,0 +1,15 @@
+{
+    "id": "aurora",
+    "hero": {
+        "name": "Aurora"
+    },
+    "counters": {
+        "hard": [
+            "Corvus – Aurora does a small amount of damage but pretty frequently, when Corvus altar is up each time Aurora will attack she will hurt herself"
+        ],
+        "soft": [
+            "Magic defense artifact – Aurora does a lot of magic damage, having a hero with a magic defense artifact will definitely help",
+            "Armor/magic defense penetration artifact – once her armor or magic defense is lowered she goes down really fast. Combine skills and attacks together to melt her down in a few seconds."
+        ]
+    }
+}

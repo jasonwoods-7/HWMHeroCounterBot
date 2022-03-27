@@ -1,0 +1,16 @@
+{
+    "id": "phobos",
+    "hero": {
+        "name": "Phobos"
+    },
+    "counters": {
+        "hard": [
+            "Corvus – Corvus is a great counter to Phobos because of his altar. Phobos will slowly kill himself just by Altar damage to him.",
+            "Use physical damage teams – Phobos will use his ultimate on the highest magic damage hero, physical damage dealers will be protected from Phobos damage.",
+            "Satori – Phobos gains energy from “Bonds of Darkness” skill so Satori can apply Fox marks each time Phobos gains extra energy."
+        ],
+        "soft": [
+            "Aoe damage – Phobos isn’t too strong in terms of defense. Use heroes who can deal aoe damage to take him down quickly."
+        ]
+    }
+}

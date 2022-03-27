@@ -1,0 +1,14 @@
+{
+    "id": "yasmine",
+    "hero": {
+        "name": "Yasmine"
+    },
+    "counters": {
+        "hard": [
+            "Helios – each time Yasmine will do a critical hit Helios will damage Yasmine",
+            "Celeste – removes Yasmine’s poison from allies",
+            "Corvus – Corvus altar makes Yasmine go down really fast because each time Yasmine’s poison hits an enemy Corvus altar will deal damage to her"
+        ],
+        "soft": []
+    }
+}

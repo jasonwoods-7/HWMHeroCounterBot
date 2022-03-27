@@ -1,0 +1,19 @@
+{
+    "id": "mojo",
+    "hero": {
+        "name": "Mojo"
+    },
+    "counters": {
+        "hard": [
+            "CC (crowd control) – Stuns, silence, charms, etc will make Mojo stop using his active skill. Mojo’s active skill is the only useful thing about him so taking that away will make him useless",
+            "High burst damage – Mojo is really squishy. Use a ton of damage in a short period of time and Mojo will be dead",
+            "Jorgen – denies a lot of energy so Mojo can’t use his active skill. Even if he uses his active skill most of it will go in Jorgen’s shield",
+            "Cornelius – Can one-shot Mojo and, also provides a lot of magic defense for his team.",
+            "Rufus – Absorbs a lot of incoming magic damage from Mojo",
+            "Lian – Charms Mojo once he hits her. Also, ultimate damage will trigger Lian’s charm effect making him stop ulting."
+        ],
+        "soft": [
+            "Magic defense artifact – Denies a lot of damage to Mojo."
+        ]
+    }
+}

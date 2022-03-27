@@ -1,0 +1,14 @@
+{
+    "id": "luther",
+    "hero": {
+        "name": "Luther"
+    },
+    "counters": {
+        "hard": [
+            "Faceless – Luther is known because of his ability to jump to the enemy’s backline. Once Luther jumps to the enemy team Faceless will be able to knock him back to Luther’s team frontline."
+        ],
+        "soft": [
+            "Armor/magic defense penetration artifact – once his armor or magic defense is lowered he goes down really fast. Combine skills and attacks together to melt her down in a few seconds."
+        ]
+    }
+}

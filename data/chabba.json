@@ -1,0 +1,14 @@
+{
+    "id": "chabba",
+    "hero": {
+        "name": "Chabba"
+    },
+    "counters": {
+        "hard": [
+            "Chabba hasn’t a real hard counter. Average tank in general who doesn’t provide that much for the team. Can be really situational."
+        ],
+        "soft": [
+            "Armor/magic penetration – like all tanks Chabba will be weak once his armor or magic defense is shredded by penetration."
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "id": "lilith",
+    "hero": {
+        "name": "Lilith"
+    },
+    "counters": {
+        "hard": [
+            "A weak early stage of the fight – Lilith can be unkillable if you allow her to stack her violet skill. Use a high damage team (Keira blender, full damage karkh team, etc) with armor penetration and kill her at the beginning of the fight.",
+            "Qing Mao – Deals percentage of Lilith’s remaining health. Can come in handy once Lilith gets a high health pool. Also, Qing Mao provides armor penetration to make it easier for physical damage dealers to take her down."
+        ],
+        "soft": [
+            "Armor/magic defense penetration artifact – once his armor or magic defense is lowered she goes down really fast. Combine skills and attacks together to melt her down in a few seconds."
+        ]
+    }
+}

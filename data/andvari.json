@@ -1,0 +1,16 @@
+{
+    "id": "andvari",
+    "hero": {
+        "name": "Andvari"
+    },
+    "counters": {
+        "hard": [
+            "Satori – Andvari applies a shield to allies to deny physical and pure damage. Shielded ally gets extra energy for damage absorbed. Satori can apply Fox marks each time that ally gains extra energy and later on kill him.",
+            "Sebastian – denies Andvari’s stuns which is a big part of Andvari’s identity",
+            "Magic attack – Andvari has a really low magic defense. Mages can destroy Andvari really fast but don’t use Twins against him because he has built-in protection to Lars dragging skill."
+        ],
+        "soft": [
+            "Armor artifact – Andvari is a physical damage dealer. Use armor artifacts to deny damage to him."
+        ]
+    }
+}

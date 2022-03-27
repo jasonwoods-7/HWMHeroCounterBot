@@ -1,0 +1,17 @@
+{
+    "id": "dante",
+    "hero": {
+        "name": "Dante"
+    },
+    "counters": {
+        "hard": [
+            "Helios- When Dante is combined with Jet for critical damage go for Helios",
+            "Jorgen – Works when Dante is used as a frontline hero Jorgen will steal energy from him. Most of the time Dante won’t survive long enough to instantly kill the enemy team"
+        ],
+        "soft": [
+            "Armor artifact – Dante is all about the physical damage. When armor artifact is up he deals a low amount of damage.",
+            "Not having low health heroes – Dante can one-shot enemy team if he gets 2 kills with his active skill making him use the active skill again, stacking artifacts,s and dealing double active skill damage in a short period of time. Even the strongest heroes can struggle to survive after that bug burst of damage.",
+            "Mages – Dante can’t dodge magic attacks, using good mage teams like Twins or ODH is a good choice to increase your chances to win the battle."
+        ]
+    }
+}

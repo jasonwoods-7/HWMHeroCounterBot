@@ -1,0 +1,15 @@
+{
+    "id": "tristan",
+    "hero": {
+        "name": "Tristan"
+    },
+    "counters": {
+        "hard": [
+            "Satori – Tristan gains a lot of extra energy from the ally in front of him. Each time he gets extra energy Satori will apply Fox marks and makes Tristan a potential one-shot victim.",
+            "Jorgen – denies a lot of energy to Tristan and the hero in front of him. This means Tristan won’t be able to ultimate that often which will result in less damage taken and more importantly less armor penetration applied to your team."
+        ],
+        "soft": [
+            "Damage dealer position – Use damage dealers who don’t stand in front of your team because their damage will be nerfed by Tristan."
+        ]
+    }
+}

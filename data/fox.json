@@ -1,0 +1,14 @@
+{
+    "id": "fox",
+    "hero": {
+        "name": "Fox"
+    },
+    "counters": {
+        "hard": [
+            "High damage – Fox is an average damage dealer who is too squishy to survive high damage. Use Keira, Karkh, Orion to take her out of the picture and then finish the rest of the team."
+        ],
+        "soft": [
+            "Armor artifact – Fox’s damage isn’t too high in general combine this fact with armor artifact and she will do almost no damage to your team"
+        ]
+    }
+}

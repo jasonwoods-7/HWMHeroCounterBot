@@ -1,0 +1,16 @@
+{
+    "id": "elmir",
+    "hero": {
+        "name": "Elmir"
+    },
+    "counters": {
+        "hard": [
+            "Keira – deals a lot of aoe damage including Elmir’s clones so they won’t survive for too long.",
+            "ODH – Orion, Dorian, Helios combo works great against Elmir because of hard aoe damage.",
+            "Strong tanks like Ziri – Elmir attacks the enemy’s frontline only so having a good tank is a must."
+        ],
+        "soft": [
+            "Armor artifact – Elmir is a physical damage dealer. Use armor artifacts to deny damage to him."
+        ]
+    }
+}

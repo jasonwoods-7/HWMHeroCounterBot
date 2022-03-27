@@ -1,0 +1,14 @@
+{
+    "id": "heidi",
+    "hero": {
+        "name": "Heidi"
+    },
+    "counters": {
+        "hard": [
+            "Corvus – Corvus’ altar can deal a lot of damage to Heidi because Heidi has a lot of aoe damage over time."
+        ],
+        "soft": [
+            "Aoe healing – Heidi deals a lot of damage over time to the all enemy team. Use aoe healing and keep your team healthy."
+        ]
+    }
+}

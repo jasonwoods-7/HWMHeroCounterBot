@@ -1,0 +1,15 @@
+{
+    "id": "faceless",
+    "hero": {
+        "name": "Faceless"
+    },
+    "counters": {
+        "hard": [
+            "Faceless hasn’t a real hard counter. He needs a good team to be a good hero. Try to neutralize hero what Faceless is supporting.",
+            "Rufus – Hard to kill tank for Faceless and also provides a huge magic damage shield for the team. Works only against mage teams!"
+        ],
+        "soft": [
+            "Magic defense artifact – Magic defense artifact will decrease Faceless’ damage by a lot."
+        ]
+    }
+}

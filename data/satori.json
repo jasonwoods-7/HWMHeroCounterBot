@@ -1,0 +1,17 @@
+{
+    "id": "satori",
+    "hero": {
+        "name": "Satori"
+    },
+    "counters": {
+        "hard": [
+            "Nebula – Removes Fox marks to 2 closest allies. Satori won’t be able to one-shot these 2 allies.",
+            "Celeste – can remove Fox marks to hero with the least health left.",
+            "Rufus – Hard to kill tank for Satori and also provides a huge magic damage shield for the team",
+            "Cornelius – can oneshot Satori, decrease Satori’s ultimate skill level, decrease magic attack and increase magic defense for the team."
+        ],
+        "soft": [
+            "Magic defense artifact – Satori relies on magic damage. Use Magic defense artifact to reduce Satori’s damage output."
+        ]
+    }
+}

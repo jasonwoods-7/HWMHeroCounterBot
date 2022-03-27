@@ -1,0 +1,16 @@
+{
+    "id": "cornelius",
+    "hero": {
+        "name": "Cornelius"
+    },
+    "counters": {
+        "hard": [
+            "Physical damage teams – Cornelius is anti mage hero and he is totally useless against physical damage teams. Cornelius shouldn’t be used on defense teams.",
+            "Krista – when you build Lars and Krista right Cornelius will attack Krista instead of Lars. Thanks to Krista’s ability to reduce incoming damage with “Crystallization” skill she will be able to block most of the Cornelius damage.",
+            "Rufus – Hard to kill tank for mage teams and also provides a huge magic damage shield for the team which can absorb enough damage to make “Heavy Wisdom” skill useless. Works only against mage teams!"
+        ],
+        "soft": [
+            "Magic defense artifact – magic defense artifact can sometimes make your magic damage dealer survive Cornelius’ “Heavy Wisdom” skill. Make sure Cornelius isn’t combined with the physical damage team because armor artifact would make more sense to have."
+        ]
+    }
+}

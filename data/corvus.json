@@ -1,0 +1,14 @@
+{
+    "id": "corvus",
+    "hero": {
+        "name": "Corvus"
+    },
+    "counters": {
+        "hard": [
+            "Single target damage – Damage dealers like Jhu, K'arkh, etc who deal single target damage will be really good against Corvus. Corvus’s strength hides in his Altar. Unless there is an aoe damage Corvus isn’t that great."
+        ],
+        "soft": [
+            "Armor penetration artifact – Corvus hasn’t the best defense stats combine this fact with armor penetration and a good damage dealer to take him down in a few seconds."
+        ]
+    }
+}

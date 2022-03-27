@@ -1,0 +1,12 @@
+{
+    "id": "rufus",
+    "hero": {
+        "name": "Rufus"
+    },
+    "counters": {
+        "hard": [
+            "Physical damage – Rufus is an anti-magic damage hero. He dies relatively fast to physical damage. Use Rufus only on offense when against magic damage dealing teams"
+        ],
+        "soft": []
+    }
+}

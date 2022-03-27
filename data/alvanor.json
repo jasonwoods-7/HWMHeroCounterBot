@@ -1,0 +1,15 @@
+{
+    "id": "alvanor",
+    "hero": {
+        "name": "Alvanor"
+    },
+    "counters": {
+        "hard": [
+            "Celeste – denies a lot of healing to the enemy team and converts that healing into damage to the enemy.",
+            "Mage teams – Alvanor was made to counter basic attack damage dealers because of his “Rune Of Earth” skill."
+        ],
+        "soft": [
+            "Magic defense artifact – Alvanor relies on magic damage. Use Magic defense artifact to reduce Alvanor’s damage output."
+        ]
+    }
+}

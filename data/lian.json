@@ -1,0 +1,16 @@
+{
+    "id": "lian",
+    "hero": {
+        "name": "Lian"
+    },
+    "counters": {
+        "hard": [
+            "Hard single target damage – Lian loses her potential if she isn’t being hit. Avoid using damage dealers with aoe damage like Keira, Orion, etc. Karkh will be a good choice against Lian.",
+            "Corvus – Lian does a good amount of small burst damage. Corvus with his altar can be a good choice against Lian if the enemy team hasn’t too many healers on their side."
+        ],
+        "soft": [
+            "Nebula – Nebula can remove charms to 2 closest allies",
+            "Celeste – can purify the lowest health ally once she turns into light form"
+        ]
+    }
+}

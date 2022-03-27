@@ -1,0 +1,14 @@
+{
+    "id": "dorian",
+    "hero": {
+        "name": "Dorian"
+    },
+    "counters": {
+        "hard": [
+            "Celeste – denies a lot of healing to the enemy team and converts that healing into damage to the enemy."
+        ],
+        "soft": [
+            "Cleaver (sometimes) – depends on the situation but sometimes you want Cleaver to hook Dorian away from damage dealers so they can’t heal themselves from Vampiric aura."
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "id": "morrigan",
+    "hero": {
+        "name": "Morrigan"
+    },
+    "counters": {
+        "hard": [
+            "Celeste – Can counter Morrigan’s healing and turn it into damage to herself and undead heroes and skeletons.",
+            "Well-timed burst damage – Morrigan starts to heal undead heroes only when the hero drops below 20% of its health. Use burst damage right before Morrigan uses her healing to take down the enemy hero."
+        ],
+        "soft": []
+    }
+}

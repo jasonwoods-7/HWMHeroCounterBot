@@ -1,0 +1,16 @@
+{
+    "id": "keira",
+    "hero": {
+        "name": "Keira"
+    },
+    "counters": {
+        "hard": [
+            "Lian – Each time Keira will do a basic attack and hit Lian she will be charmed for a few seconds",
+            "Helios – when Keira is combined with Jet then Helios is a great counter to Keira because each time Keira will critical strike Helios will deal damage to her",
+            "Corvus – when Corvus’ altar is up each Keira’s ricochet hit will trigger damage from Corvus’ altar"
+        ],
+        "soft": [
+            "Daredevil – Daredevil has a great chance to win against Keira. All goes down to what team compositions each team has. On offense, Daredevil should always win against Keira."
+        ]
+    }
+}

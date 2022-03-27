@@ -1,0 +1,12 @@
+{
+    "id": "isaac",
+    "hero": {
+        "name": "Isaac"
+    },
+    "counters": {
+        "hard": [
+            "Single target damage – Isaac needs to active his active skill to be effective and useful. Use heroes who won’t hit him with aoe damage to delay his charging uptime."
+        ],
+        "soft": []
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "id": "galahad",
+    "hero": {
+        "name": "Galahad"
+    },
+    "counters": {
+        "hard": [
+            "Jorgen – Galahad need is an energy-hungry hero but Jorgen will steal most of his energy with his basic attacks."
+        ],
+        "soft": [
+            "Armor artifact – Galahad is all about the physical damage. When armor artifact is up he deals a low amount of damage.",
+            "Heroes who can hit behind Galahad- Even though Galahad has good survivability he doesn’t provide any defense for the team. You can use heroes like Keira, Orion, Karkh, Yasmine, etc to take down enemy team and then deal with Galahad",
+            "Armor/magic defense penetration artifact – once his armor or magic defense is lowered he goes down really fast. Combine skills and attacks together to melt him down in a few seconds."
+        ]
+    }
+}

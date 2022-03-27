@@ -4,13 +4,13 @@ using Microsoft.Extensions.Options;
 
 namespace HeroWars.Hero.Counter.Bot.Repositories;
 
-class HeroRepository : IHeroRepository
+class CosmosHeroRepository : IHeroRepository
 {
     readonly string _connectionString;
     readonly string _databaseName;
     readonly string _containerName;
 
-    public HeroRepository(IOptions<BotOptions> options)
+    public CosmosHeroRepository(IOptions<CosmosOptions> options)
     {
         _connectionString = options.Value.ConnectionString;
         _databaseName = options.Value.DatabaseName;
@@ -21,18 +21,19 @@ class HeroRepository : IHeroRepository
     {
         using var client = new CosmosClient(_connectionString);
 
-        var database = await client
+        var database = (await client
             .CreateDatabaseIfNotExistsAsync(_databaseName)
-            .ConfigureAwait(false);
+            .ConfigureAwait(false))
+            .Database;
 
-        var container = await database
-            .Database
+        var container = (await database
             .CreateContainerIfNotExistsAsync(_containerName, "/id")
-            .ConfigureAwait(false);
+            .ConfigureAwait(false))
+            .Container;
 
         var query = new QueryDefinition($"SELECT * FROM c WHERE c.id = '{heroName}'");
 
-        var resultSet = container.Container.GetItemQueryIterator<Document>(query);
+        using var resultSet = container.GetItemQueryIterator<Document>(query);
 
         if (resultSet.HasMoreResults)
         {

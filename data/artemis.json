@@ -1,0 +1,17 @@
+{
+    "id": "artemis",
+    "hero": {
+        "name": "Artemis"
+    },
+    "counters": {
+        "hard": [
+            "Helios – Artemis has a natural built-in critical hit chance so Helios will take her down with no problems.",
+            "Lian – Charms Artemis once she hits her. Artemis has a lot of aoe damage so she will get charmed quite a lot."
+        ],
+        "soft": [
+            "Armor artifact – Artemis is a physical damage dealer. Use armor artifact to deny damage to her.",
+            "High aoe damage – Artemis has low defense stats. Use heroes like Keira or DOH combo to kill her with aoe damage.",
+            "Artemis is a weak DPS hero in general. You shouldn’t have problems countering her if you follow meta-team compositions."
+        ]
+    }
+}

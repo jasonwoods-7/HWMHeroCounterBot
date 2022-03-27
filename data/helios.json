@@ -1,0 +1,19 @@
+{
+    "id": "helios",
+    "hero": {
+        "name": "Helios"
+    },
+    "counters": {
+        "hard": [
+            "Jorgen – once Jorgen activates his “Leper” skill most of the time Helios will die because he is the furthest hero in most team compositions and he can’t survive all redirected damage.",
+            "Not having magic penetration – Helios has decent damage but he lacks magic penetration. He has to be combined with Orion or other heroes who can provide penetration otherwise he can’t be used to his full potential.",
+            "Rufus – Rufus can absorb most of Helios damage with his shield",
+            "Not using critical damage heroes – Helios is a counter hero and he counters critical damage. Teams who don’t use critical damage heroes won’t be countered",
+            "Cleaver – Once Cleaver hooks Helios and brings him to the frontline he has almost no chance to survive and be useful for his team."
+        ],
+        "soft": [
+            "Magic defense artifact – Denies a lot of damage to Helios.",
+            "Cornelius – Cornelius can one-shot him, and deny some damage with his magic defense buff"
+        ]
+    }
+}
