@@ -16,7 +16,7 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-		Debug - Beta|Any CPU = Debug - Beta|Any CPU
+		Debug - Cosmos|Any CPU = Debug - Cosmos|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,13 +26,11 @@ Global
 		{64168349-CB3D-45DA-A523-45D04DDFC422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64168349-CB3D-45DA-A523-45D04DDFC422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64168349-CB3D-45DA-A523-45D04DDFC422}.Release|Any CPU.Build.0 = Release|Any CPU
-		{64168349-CB3D-45DA-A523-45D04DDFC422}.Debug - Beta|Any CPU.ActiveCfg = Debug - Beta|Any CPU
-		{64168349-CB3D-45DA-A523-45D04DDFC422}.Debug - Beta|Any CPU.Build.0 = Debug - Beta|Any CPU
+		{64168349-CB3D-45DA-A523-45D04DDFC422}.Debug - Cosmos|Any CPU.ActiveCfg = Debug - Cosmos|Any CPU
 		{484AB34B-33EF-4E3D-9631-5954ECFD7301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{484AB34B-33EF-4E3D-9631-5954ECFD7301}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{484AB34B-33EF-4E3D-9631-5954ECFD7301}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{484AB34B-33EF-4E3D-9631-5954ECFD7301}.Release|Any CPU.Build.0 = Release|Any CPU
-		{484AB34B-33EF-4E3D-9631-5954ECFD7301}.Debug - Beta|Any CPU.ActiveCfg = Debug|Any CPU
-		{484AB34B-33EF-4E3D-9631-5954ECFD7301}.Debug - Beta|Any CPU.Build.0 = Debug|Any CPU
+		{484AB34B-33EF-4E3D-9631-5954ECFD7301}.Debug - Cosmos|Any CPU.ActiveCfg = Debug|Any CPU
 	EndGlobalSection
 EndGlobal

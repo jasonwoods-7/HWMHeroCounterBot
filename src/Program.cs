@@ -17,7 +17,7 @@ public static class Program
                 .ConfigureServices((hostContext, services) =>
                 {
                     Log.Logger = new LoggerConfiguration()
-#if DEBUG
+#if DEBUG || DEBUG___COSMOS
                         .MinimumLevel.Debug()
 #else
                         .MinimumLevel.Information()

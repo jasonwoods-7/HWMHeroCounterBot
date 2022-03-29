@@ -53,7 +53,7 @@ public class Worker : BackgroundService
             .AddModulesAsync(typeof(Worker).Assembly, _services)
             .ConfigureAwait(false);
 
-#if DEBUG
+#if DEBUG || DEBUG___COSMOS
         var guildId = _botOptions.GuildId;
 
         await _interactionService

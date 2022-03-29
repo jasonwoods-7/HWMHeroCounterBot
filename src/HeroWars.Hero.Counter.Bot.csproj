@@ -7,7 +7,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>dotnet-HeroWars.Hero.Counter.Bot-F8243D86-02AC-4D5E-A790-472A969DB5D2</UserSecretsId>
     <Version>1.0.0.0</Version>
-    <Configurations>Debug;Release;Debug - Beta</Configurations>
+    <Configurations>Debug;Release;Debug - Cosmos</Configurations>
+    <Platforms>AnyCPU</Platforms>
   </PropertyGroup>
 
   <ItemGroup>
