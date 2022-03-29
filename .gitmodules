@@ -1,0 +1,3 @@
+[submodule "submodule/EnumFastToStringDotNet"]
+	path = submodule/EnumFastToStringDotNet
+	url = https://github.com/Spinnernicholas/EnumFastToStringDotNet

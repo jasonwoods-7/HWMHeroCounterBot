@@ -1,5 +1,6 @@
 using Discord;
 using Discord.Interactions;
+using EnumFastToStringGenerated;
 using Gma.DataStructures.StringSearch;
 using HeroWars.Hero.Counter.Bot.Data;
 
@@ -27,7 +28,7 @@ public class HeroAutoComplete : AutocompleteHandler
     {
         var suggestions = _heroesTrie
             .Retrieve((string?)autocompleteInteraction.Data.Options.FirstOrDefault(o => o.Name == "hero-name")?.Value)
-            .Select(h => new AutocompleteResult(h.GetHeroName(), h.ToString()))
+            .Select(h => new AutocompleteResult(h.GetHeroName(), h.FastToString()))
             .OrderBy(r => r.Name)
             .Take(15)
             .ToList();

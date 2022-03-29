@@ -1,8 +1,10 @@
 using Discord.Interactions;
+using EnumFastToStringGenerated;
 using Newtonsoft.Json;
 
 namespace HeroWars.Hero.Counter.Bot.Data;
 
+[FastToString]
 public enum Hero
 {
     Alvanor,
