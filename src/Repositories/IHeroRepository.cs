@@ -4,5 +4,5 @@ namespace HeroWars.Hero.Counter.Bot.Repositories;
 
 public interface IHeroRepository
 {
-    Task<Document?> GetHeroCountersAsync(string heroName);
+    Task<Document?> GetHeroCountersAsync(string heroName, CancellationToken cancellationToken = default);
 }

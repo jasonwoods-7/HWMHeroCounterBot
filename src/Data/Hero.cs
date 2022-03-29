@@ -1,6 +1,5 @@
 using Discord.Interactions;
 using EnumFastToStringGenerated;
-using Newtonsoft.Json;
 
 namespace HeroWars.Hero.Counter.Bot.Data;
 
@@ -73,9 +72,9 @@ public enum Hero
 
 public record Document
 (
-    [JsonProperty(PropertyName = "id")] string Id,
-    [JsonProperty(PropertyName = "hero")] HeroRecord Hero,
-    [JsonProperty(PropertyName = "counters")] Counters Counters
+    string Id,
+    HeroRecord Hero,
+    Counters Counters
 )
 {
     public Document()
@@ -86,7 +85,7 @@ public record Document
 
 public record HeroRecord
 (
-    [JsonProperty(PropertyName = "name")] string Name
+    string Name
 )
 {
     public HeroRecord()
@@ -97,8 +96,8 @@ public record HeroRecord
 
 public record Counters
 (
-    [JsonProperty(PropertyName = "hard")] IReadOnlyList<string> Hard,
-    [JsonProperty(PropertyName = "soft")] IReadOnlyList<string> Soft
+    IReadOnlyList<string> Hard,
+    IReadOnlyList<string> Soft
 )
 {
     public Counters()

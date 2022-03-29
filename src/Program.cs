@@ -1,5 +1,7 @@
 using Discord.WebSocket;
 using HeroWars.Hero.Counter.Bot.Repositories;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using Serilog;
 
 namespace HeroWars.Hero.Counter.Bot;
@@ -15,7 +17,11 @@ public static class Program
                 .ConfigureServices((hostContext, services) =>
                 {
                     Log.Logger = new LoggerConfiguration()
+#if DEBUG
                         .MinimumLevel.Debug()
+#else
+                        .MinimumLevel.Information()
+#endif
                         .WriteTo.Console(
                             outputTemplate: "{Timestamp:yyyy-MM-ddTHH:mm:ss} [{Level:u3}] - {SourceContext} - {Message:lj}{NewLine}{Exception}")
                         .CreateLogger();
@@ -23,17 +29,22 @@ public static class Program
                     services
                         .AddHostedService<Worker>()
                         .Configure<BotOptions>(hostContext.Configuration.GetSection(nameof(BotOptions)))
-                        .Configure<CosmosOptions>(hostContext.Configuration.GetSection(nameof(CosmosOptions)))
                         .AddTransient<DiscordSocketClient>()
 #if DEBUG
                         .AddTransient<IHeroRepository, FileHeroRepository>()
 #else
+                        .Configure<CosmosOptions>(hostContext.Configuration.GetSection(nameof(CosmosOptions)))
                         .AddTransient<IHeroRepository, CosmosHeroRepository>()
 #endif
                         ;
                 })
                 .UseSerilog()
                 .Build();
+
+            JsonConvert.DefaultSettings = () => new JsonSerializerSettings
+            {
+                ContractResolver = new CamelCasePropertyNamesContractResolver()
+            };
 
             Log.ForContext(typeof(Program)).Information("Starting host...");
 

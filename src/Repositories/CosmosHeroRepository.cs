@@ -1,4 +1,5 @@
 using HeroWars.Hero.Counter.Bot.Data;
+using HeroWars.Hero.Counter.Bot.Extension;
 using Microsoft.Azure.Cosmos;
 using Microsoft.Extensions.Options;
 
@@ -17,32 +18,17 @@ class CosmosHeroRepository : IHeroRepository
         _containerName = options.Value.ContainerName;
     }
 
-    public async Task<Document?> GetHeroCountersAsync(string heroName)
+    public async Task<Document?> GetHeroCountersAsync(string heroName, CancellationToken cancellationToken = default)
     {
         using var client = new CosmosClient(_connectionString);
 
-        var database = (await client
-            .CreateDatabaseIfNotExistsAsync(_databaseName)
-            .ConfigureAwait(false))
-            .Database;
+        var container = client.GetContainer(_databaseName, _containerName);
 
-        var container = (await database
-            .CreateContainerIfNotExistsAsync(_containerName, "/id")
-            .ConfigureAwait(false))
-            .Container;
+        using var resultSet = container.GetItemQueryIterator<Document>($"SELECT * FROM c WHERE c.id = '{heroName}'");
 
-        var query = new QueryDefinition($"SELECT * FROM c WHERE c.id = '{heroName}'");
-
-        using var resultSet = container.GetItemQueryIterator<Document>(query);
-
-        if (resultSet.HasMoreResults)
-        {
-            return (await resultSet
-                .ReadNextAsync()
-                .ConfigureAwait(false))
-                .First();
-        }
-
-        return null;
+        return await resultSet
+            .ResultsAsync(cancellationToken)
+            .FirstOrDefaultAsync(cancellationToken)
+            .ConfigureAwait(false);
     }
 }

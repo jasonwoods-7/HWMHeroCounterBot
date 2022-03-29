@@ -5,7 +5,7 @@ namespace HeroWars.Hero.Counter.Bot.Repositories;
 
 class FileHeroRepository : IHeroRepository
 {
-    public async Task<Document?> GetHeroCountersAsync(string heroName)
+    public async Task<Document?> GetHeroCountersAsync(string heroName, CancellationToken cancellationToken = default)
     {
         var info = new FileInfo(Path.Combine(Environment.CurrentDirectory, "..", "data", $"{heroName}.json"));
 

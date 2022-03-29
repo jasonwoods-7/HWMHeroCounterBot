@@ -14,16 +14,7 @@ public class AboutCommand : InteractionModuleBase
         {
             var assemblyName = Assembly.GetExecutingAssembly().GetName();
 
-            var name = new StringBuilder();
-
-            if (assemblyName.Name is { } n)
-            {
-                name.Append(n);
-            }
-            else
-            {
-                name.Append("HWMHeroCounterBot");
-            }
+            var name = new StringBuilder(assemblyName.Name ?? "HWMHeroCounterBot");
 
             if (assemblyName.Version is { } v)
             {
