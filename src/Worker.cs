@@ -53,12 +53,13 @@ public class Worker : BackgroundService
             .AddModulesAsync(typeof(Worker).Assembly, _services)
             .ConfigureAwait(false);
 
-#if DEBUG || DEBUG___COSMOS
-        var guildId = _botOptions.GuildId;
-
-        await _interactionService
-            .RegisterCommandsToGuildAsync(guildId)
-            .ConfigureAwait(false);
+#if !RELEASE
+        foreach (var guildId in _botOptions.GuildIds)
+        {
+            await _interactionService
+                .RegisterCommandsToGuildAsync(guildId)
+                .ConfigureAwait(false);
+        }
 #else
         await _interactionService
             .RegisterCommandsGloballyAsync()
@@ -71,10 +72,8 @@ public class Worker : BackgroundService
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
     {
-        var token = _botOptions.Token;
-
         await _client
-            .LoginAsync(TokenType.Bot, token)
+            .LoginAsync(TokenType.Bot, _botOptions.Token)
             .ConfigureAwait(false);
 
         await _client

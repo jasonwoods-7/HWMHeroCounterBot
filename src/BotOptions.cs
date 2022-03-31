@@ -3,11 +3,11 @@ namespace HeroWars.Hero.Counter.Bot;
 public record BotOptions
 (
     string Token,
-    ulong GuildId
+    IReadOnlyList<ulong> GuildIds
 )
 {
     public BotOptions()
-        : this(string.Empty, 0)
+        : this(string.Empty, Array.Empty<ulong>())
     {
     }
 }
