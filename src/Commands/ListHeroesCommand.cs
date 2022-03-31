@@ -1,7 +1,7 @@
 using System.Text;
 using Discord;
 using Discord.Interactions;
-using HeroWars.Hero.Counter.Bot.Data;
+using HeroWars.Hero.Counter.Bot.Extension;
 
 namespace HeroWars.Hero.Counter.Bot.Commands;
 

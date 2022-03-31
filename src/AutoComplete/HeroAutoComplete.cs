@@ -2,7 +2,7 @@ using Discord;
 using Discord.Interactions;
 using EnumFastToStringGenerated;
 using Gma.DataStructures.StringSearch;
-using HeroWars.Hero.Counter.Bot.Data;
+using HeroWars.Hero.Counter.Bot.Extension;
 
 namespace HeroWars.Hero.Counter.Bot.AutoComplete;
 
