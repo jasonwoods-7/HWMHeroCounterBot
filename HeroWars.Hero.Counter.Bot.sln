@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionFolder", "SolutionFolder", "{E7D53112-463C-4D01-8A54-3236C5C5E015}"
 	ProjectSection(SolutionItems) = preProject
 		readme.md = readme.md
+		Dockerfile = Dockerfile
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumFastToStringDotNet", "submodule\EnumFastToStringDotNet\src\EnumFastToStringDotNet\EnumFastToStringDotNet.csproj", "{484AB34B-33EF-4E3D-9631-5954ECFD7301}"
