@@ -17,13 +17,7 @@ public static class Program
                 .ConfigureServices((hostContext, services) =>
                 {
                     Log.Logger = new LoggerConfiguration()
-#if DEBUG || DEBUG___COSMOS
-                        .MinimumLevel.Debug()
-#else
-                        .MinimumLevel.Information()
-#endif
-                        .WriteTo.Console(
-                            outputTemplate: "{Timestamp:yyyy-MM-ddTHH:mm:ss} [{Level:u3}] - {SourceContext} - {Message:lj}{NewLine}{Exception}")
+                        .ReadFrom.Configuration(hostContext.Configuration)
                         .CreateLogger();
 
                     services
