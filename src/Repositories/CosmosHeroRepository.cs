@@ -24,7 +24,10 @@ class CosmosHeroRepository : IHeroRepository
 
         var container = client.GetContainer(_databaseName, _containerName);
 
-        using var resultSet = container.GetItemQueryIterator<Document>($"SELECT * FROM c WHERE c.id = '{heroName}'");
+        var query = new QueryDefinition("SELECT * FROM c WHERE c.id = @HeroName")
+            .WithParameter("@HeroName", heroName);
+
+        using var resultSet = container.GetItemQueryIterator<Document>(query);
 
         return await resultSet
             .ResultsAsync(cancellationToken)
