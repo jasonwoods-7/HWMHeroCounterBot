@@ -1,0 +1,10 @@
+**/.dockerignore
+**/.git
+**/.gitignore
+**/.idea
+**/*.*proj.user
+**/bin
+**/Dockerfile*
+**/obj
+LICENSE
+readme.md
