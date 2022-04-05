@@ -17,6 +17,7 @@ public static class FeedIteratorExtensions
 
             foreach (var current in page)
             {
+                cancellationToken.ThrowIfCancellationRequested();
                 yield return current;
             }
         }
